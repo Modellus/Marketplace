@@ -4,21 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "http-server . -p 4173 -a 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
     "deploy:cf": "npm run build && wrangler pages deploy dist --project-name marketplace"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.0.0",
-    "devextreme": "^25.1.4",
-    "devextreme-vue": "^25.1.4",
-    "pinia": "^2.3.1",
-    "vue": "^3.5.20",
-    "vue-router": "^4.5.1"
+    "devextreme": "25.1.7"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
+    "http-server": "^14.1.1",
     "vite": "^5.3.0",
     "wrangler": "^4.46.0"
   }

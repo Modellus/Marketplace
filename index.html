@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marketplace</title>
+    <script>
+      const sessionKey = "mp.session";
+      const existingSession = localStorage.getItem(sessionKey);
+      if (existingSession) window.location.href = "/models.html";
+      if (!existingSession) window.location.href = "/login.html";
+    </script>
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
-  </html>
-
+  <body></body>
+</html>
