@@ -1,7 +1,7 @@
 const apiBase = "https://modellus-api.interactivebook.workers.dev";
 const googleClientId = "616832441203-a45kghte7c05vdkj5ri5ejp8qu81vcae.apps.googleusercontent.com";
 const sessionKey = "mp.session";
-if (typeof DevExpress !== "undefined" && DevExpress.config) DevExpress.config({ licenseKey: 'ewogICJmb3JtYXQiOiAxLAogICJjdXN0b21lcklkIjogImNmOWZhNjAzLTI4ZTAtMTFlMi05NWQwLTAwMjE5YjhiNTA0NyIsCiAgIm1heFZlcnNpb25BbGxvd2VkIjogMjUxCn0=.HCqYKF15Krg++10hQyJyCeml3sygMFCr47zMJkW4jeXktXehF3um5KXOxJIzXPSawem8oGxQVUIbMFNH8rwoA5esgYplJhs9KN/N30BkHJ+P6x1d0GZFoj/KEteI8kttNyDLPA==' });
+if (typeof DevExpress !== "undefined" && DevExpress.config) DevExpress.config({ licenseKey: 'LCPv1,L,!9RS;S>Eo2QRg!L,;c<@@(JQJ(H3[3<987%m;pJ-7%e91V7a+GJ447Y:B2QaF!bSBVi:y3iSV6yXyIJtE%jaKVN,G9_,Hey!NpR-8!bt@(HR$V<9[,pmNZ+Ez:Htjp7+pInt>,7Dn>Q,N,na+:et3IJy(c_+z3<V;I+-6%<m:pj,$eJcmk%9<%pFE>jy:%%!<SQFQpK-EpR+FIb<;6%f;>Qd$pN-:>%X<2p@6p<-Q2%d:2bRQ>Q!vI<!F2_@FG<-6p<dQI%!:aQ!)27@QI%4v>jzvaj@Fp<4vI%!62<X<!j@:>Q4:G_@@9Qdv6<!F6<dFI7yFI7yFI7Ll' });
 
 class LoginApp {
   constructor() {

@@ -10,7 +10,7 @@
     "deploy:cf": "npm run build && wrangler pages deploy dist --project-name marketplace"
   },
   "dependencies": {
-    "devextreme": "25.1.7"
+    "devextreme": "26.1.5"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
